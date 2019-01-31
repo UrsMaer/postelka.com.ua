@@ -14,8 +14,8 @@
       <ul class="site-navigation">
         <li> <a href="the-main.html">Главная</a> </li>
         <li> <a href="sale.html">Скидки</a> </li>
-        <li class="site-navigation-current"> <a href="produkt.html">Магазин</a> </li>
-        <li> <a href="produkt.html">Товары</a> </li>
+        <li> <a href="shop.html">Магазин</a> </li>
+        <li class="site-navigation-current"> <a href="produkt.html">Товары</a> </li>
         <li> <a href="blog.html">Наш блог</a> </li>
         <li> <a href="buy.html">Купить</a> </li>
         <li> <a href="contacts.html">Контакты</a> </li>
@@ -39,8 +39,119 @@
     </ul>
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
-      <form class="filter" action="index.html" method="get">
-
+      <form class="filter" action="https://echo.postelka.com.ua" method="get">
+        <fieldset>
+          <legend>Позиция:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-radio" type="radio" name="produkt-group" value="bedding-set" id="filter-bedding-set" checked>
+              <label for="filter-bedding-set">Комплект постельного</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-radio" type="radio" name="produkt-group" value="blanked" id="filter-blanked">
+              <label for="filter-blanked">Одеяло</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-radio" type="radio" name="produkt-group" value="pillow" id="filter-pillow" >
+              <label for="filter-pillow">Подушка</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-radio" type="radio" name="produkt-group" value="plaid" id="filter-plaid" >
+              <label for="filter-plaid">Плед</label>
+            </li>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter
+            -input-radio" type="radio" name="produkt-group" value="bedding-set-kids" id="filter-bedding-set-kids" >
+            <label for="filter-bedding-set-kids">Детское постельное</label>
+          </li>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter
+          -input-radio" type="radio" name="produkt-group" value="towel" id="filter-towel" >
+          <label for="filter-towel">Полотенце</label>
+        </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Материал:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-checkbox" type="checkbox" name="satin" id="filter-satin" checked>
+              <label for="filter-satin">Сатин</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-checkbox" type="checkbox" name="silk" id="filter-silk">
+              <label for="filter-silk">Шелк</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-checkbox" type="checkbox" name="calico" id="filter-calico" >
+              <label for="filter-calico">Бязь</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-checkbox" type="checkbox" name="cotton" id="filter-cotton" >
+              <label for="filter-cotton">Хлопок</label>
+            </li>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter
+            -input-checkbox" type="checkbox" name="wool" id="filter-wool" >
+            <label for="filter-wool">Шерсть</label>
+          </li>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter
+          -input-checkbox" type="checkbox" name="down" id="filter-down"  >
+          <label for="filter-down">Пух</label>
+        </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Производитель:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-checkbox" type="checkbox" name="Le-Vele" id="filter-Le-Vele" checked>
+              <label for="filter-Le-Vele">Le Vele</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-checkbox" type="checkbox" name="Beelana" id="filter-Beelana">
+              <label for="filter-Beelana">Beelana</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-checkbox" type="checkbox" name="World-of-Dreeam" id="filter-World-of-Dreeam" >
+              <label for="filter-World-of-Dreeam">World of Dreeam</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter
+              -input-checkbox" type="checkbox" name="Tac" id="filter-Tac" >
+              <label for="filter-Tac">Tac</label>
+            </li>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter
+            -input-checkbox" type="checkbox" name="Beellerbek" id="filter-Beellerbek" >
+            <label for="filter-Beellerbek">Beellerbek</label>
+          </li>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter
+          -input-checkbox" type="checkbox" name="La-Skala" id="filter-La-Skala" >
+          <label for="filter-La-Skala">La Skala</label>
+        </li>
+          </ul>
+        </fieldset>
+        <button type="submit" class="filter-button button">Показать</button>
       </form>
     </section>
     <section>
@@ -242,7 +353,5 @@
     </section>
 
 </body>
-<footer>
 
-</footer>
 </html>
