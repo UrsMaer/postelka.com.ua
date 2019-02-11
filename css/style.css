@@ -37,7 +37,7 @@ a {
  }
 
  .button {
-   font: inheret;
+   font: inherit;
 
    text-align: center;
    color: #FFFFFF;
@@ -451,9 +451,8 @@ line-height: 42px;
   margin-top: 65px;
 
   color: #ffffff;
-
-  background-color: #212121;
-  background-image: url("img/pattern-dark.png");
+    background-color: #212121;
+  background-image: url:("img/pattern-dark.png");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -464,7 +463,7 @@ line-height: 42px;
 
 .footer-contakts {
   width: 220px
-  margin: 0;
+  margin: 50px;
   margin-right: 80px;
 }
 
@@ -527,7 +526,7 @@ width: 270px;
 
 .login-form input [type="text"],
 .login-form input [type="password"] {
-  font: interit;
+  font: inherit;
   color: #000000;
   text-transform: uppercase;
 
