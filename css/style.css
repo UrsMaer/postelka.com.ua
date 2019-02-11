@@ -143,7 +143,7 @@ a {
 }
 
 .features {
-  margin-bottom: 55px;
+  margin-bottom: 80px;
 }
 
 .features-list{
@@ -173,8 +173,7 @@ a {
   margin-bottom: 35px;
 
   color: #000000;
-
-  background-color: #f8f5f2;
+    background-color: #f8f5f2;
   background-image: url("../img/pattern-light.jpg");
   background-position: 0 0;
   background-repeat: repeat;
@@ -191,11 +190,11 @@ a {
 }
 
 
-.news {
+.news .news-list{
   width: 380px;
 }
 
-.catalog {
+ .catalog-content .catalog  {
   width: 300px;
 }
 
@@ -220,10 +219,6 @@ line-height: 42px;
   text-transform: none;
 }
 
-.catalog-content {
-  background-color: #cccccc;
-  border: 1px solid #f8f5f2;
-}
 
 .buy-item input {
   font: inherit;
@@ -299,7 +294,7 @@ line-height: 42px;
 }
 
 .catalog-item {
-  background-color: #f8f8f8;
+  background-color: #f8f5f2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -444,9 +439,6 @@ line-height: 42px;
   width: 180px;
 }
 
-.catalog {
-  width: 700px;
-}
 
 .catalog-item {
   width: 220px;
